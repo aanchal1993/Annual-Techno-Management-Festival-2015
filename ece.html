@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- PAGE TITLE -->
+    <title>Techinical ECE</title>
+    <!-- MAKE IT RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <!-- FAVICON -->	
+	<!--<link rel="shortcut icon" href="images/favicon.png" />-->
+    <!-- STYLESHEETS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet" media="screen">
+    <link href="css/options.css" rel="stylesheet" media="screen">
+    <link href="css/responsive.css" rel="stylesheet" media="screen">
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:900,300,400,200,800' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!-- START BODY -->
+  <body>
+
+  	<div id="page">
+	  	<!-- START HEADER -->
+	  	<header id="header" class="small with-separation-bottom">
+	  		<!-- POINTER ANIMATED -->
+	  		<canvas id="header-canvas"></canvas>
+	  		
+	  		<!-- TOP NAVIGATION -->
+	  		<div id="top-navigation">
+		  		<ul class="animate-me fadeInDown" data-wow-duration="1.2s">
+			  		<li class="menu-item"><i class="fa fa-phone"></i> 81 46 97 91 98</li>
+			  		<li class="menu-item"><a href="faq.html"><i class="fa fa-question"></i> FAQ</a></li>		  		
+			  		<li class="menu-item"><span class="navigation-social"><a href="https://www.facebook.com/pages/Insignia2k15/642319015901883?fref=nf">We're social !</span> <i class="fa fa-facebook"></i></a> 
+			  		<li class="menu-item">
+			  			<!-- SEARCHFORM -->
+			  			<div id="search-container" class="animate-me fadeInDown">
+					  		<form role="search" method="get" action="#" >
+								<input type="text" value="" name="s" id="s" placeholder="Search..."/>
+								<input type="hidden" name="searchsubmit" id="searchsubmit" value="true" />
+								<button type="submit" name="searchsubmit"><i class="fa fa-search"></i></button>
+					        </form>
+				  		</div>
+			  			<a href="#" id="search-toggle"><i class="fa"></i></a>
+			  		</li>			  		
+		  		</ul>
+	  		</div>
+	  	
+	  		<!-- MOBILE NAVIGATION -->
+	  		<nav id="navigation-mobile"></nav>
+	  	
+	  		<!-- MAIN MENU -->
+	  		<nav id="navigation">
+	  			<!-- DISPLAY MOBILE MENU -->
+	  			<a href="#" id="show-mobile-menu"><i class="fa fa-bars"></i></a>
+	  			<!-- CLOSE MOBILE MENU -->
+		  		<a href="#" id="close-navigation-mobile"><i class="fa fa-long-arrow-left"></i></a>
+	  			
+		  		<ul id="left-navigation" class="animate-me fadeInLeftBig">
+			  		<li class="menu-item  menu-item-has-children">
+			  			<a href="index.html" >Home</a>
+			  			
+			  		</li>
+			  		<li class="menu-item">
+			  			<a href="index.html#gallery" >Gallery</a>
+			  			
+			  		</li>
+			  		<li class="menu-item current-menu-item "><a href="index.html#events" >Events</a></li>
+		  		</ul>
+		  		<div  class="animate-me flipInX" data-wow-duration="3s">
+		  			<a href="index.html" id="logo-navigation">
+		  				
+		  			</a>
+		  		</div>
+		  		<ul id="right-navigation" class="animate-me fadeInRightBig">
+			  		<li class="menu-item"><a href="http://localhost:4545/register.php">Register</a></li>
+			  		<li class="menu-item menu-item-has-children">
+			  			<a href="blog.html">Schedule</a>
+			  			
+			  		</li>
+			  		<li class="menu-item"><a href="#contact" >Contact</a></li>
+		  		</ul>
+	  		</nav>
+
+	  		<!-- SHADOW -->
+	  		<div id="shade"></div>
+
+	  		<!-- HEADER SLIDER -->
+		  	<div class="flexslider" id="header-slider">
+		  		<ul class="slides">
+		  			<li><img src="images/backgrounds/bg1.jpg" alt="SLider Image"></li>
+		  		</ul>	
+		  	</div>
+	  		
+	  	</header>
+	  	<!-- END HEADER -->
+	  	
+	  	<!-- START MAIN CONTAINER -->
+	  	<div class="main-container">
+	  		<div class="container">
+	  			<!-- SKILLS -->
+	  			<h2 class="with-breaker animate-me fadeInUp">
+		  			Electrical Events
+	  			</h2>
+	  			
+	  			<div class="tabs-container">
+	  				<ul class="nav nav-tabs" role="tablist" id="SkillsTab">
+						<li class="active">
+							<a href="#skill1" role="tab" data-toggle="tab">Electro vision</a></li>
+							<li><a href="#skill2" role="tab" data-toggle="tab">Mud Rally</a></li>
+							<li><a href="#skill3" role="tab" data-toggle="tab">Circuit Trix</a></li>
+							<li><a href="#skill4" role="tab" data-toggle="tab">Line Follow</a></li>
+							<li><a href="#skill5" role="tab" data-toggle="tab">In4Tech</a></li>
+							<li><a href="#skill6" role="tab" data-toggle="tab">What an Idea!</a></li>
+							<li><a href="#skill7" role="tab" data-toggle="tab">PCB Etching</a></li>
+							<li><a href="#skill8" role="tab" data-toggle="tab">Impe- dance</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active bounceInRight" id="skill1">
+							<h2>Electrovision</h2>
+				  			<p class="text-justify"> 
+				  				No. of levels - 3</br>
+				  				<b>Level 1</b> - Technical Aptitude Test</br>
+				  				<b>Description:</b>Basis question related to electronics and level of difficulty will vary acc. to semester. </br>
+				  				<b>Level 2</b> - Keep Calm and Quiz on</br>
+				  				<b>Description</b>:Team will be formed and rapid questions will be asked.</br>
+				  				<b>Level 3 </b>- Figure Out </br>
+				  				<b>Description:</b>components or circuits will be shown on the projector.They have to name it(single word)
+				  				 </p>
+							<div class="col-md-6">
+									<h3>Level 1,2&3</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Gurleen </li>
+				  						<li>Kajal</li>
+				  						<li>Sukhman</li>
+				  						<li>Arjun</li>
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs 20/-</b></li>
+				  						<li><b>Duration : 30min,1hr,30min </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 750/-</b></li>
+											<li> Runner Up :</br><b>Rs 500/-</b></li>
+											
+				  						</ol></li>
+				  					</ul>
+			  					</div>
+			  					
+						</div>
+						<div class="tab-pane bounceInRight" id="skill2">
+							<h2>Mud Rally</h2>
+		
+							<div class="row">
+								<p class="text-justify"> 
+				  				No. of levels - 1</br>
+				  				<b>Level 1</b> -</br>
+				  				<b>Description:</b>Gears will grind and sparks will fly, much more is at stake as the robots battle it out in a bid to be the best. 4 wheel robot cars will rip apart every nut and bolt of the opponent. Our mud rally event is a race between the robots. Players have to complete the path in minimum time and getting maximum points by crossing the hurdles.</br></p>
+				  				
+				  				<b>General Rules:</b></br>
+				  				<ol>
+				  					<li>The arena is made of many hurdles and winner will be decided on following point distribution system-</li>
+				  					<ul>
+				  						<li>Teams are requested to complete the lap in minimum time as half of the total time taken by team to complete the path (in seconds) will be subtracted from team total score.</li>
+				  						<li>Each Hurdle has its points varying from +10 to +20 depending upon difficulty of hurdle; successful crossing of hurdle will give team those hurdle points.</li>
+				  						<li>Each team will be given 3 or 5 chances to cross the hurdle depending upon difficulty and with each next trial the points of hurdle will be decreased by value of 2 for all hurdles.</li>
+				  						<li>If team got failed to successfully cross hurdle in given trials then they have to skip the hurdle and skipping any hurdle either after taking chances or before will make a deduction of 4 points from team score.</li>
+				  						<li>If the robot cuts any line or boundary in full path then 2 points will be deducted for each line cut. ( even if one tyre of robot goes out of line then it will be considered as line cut)</li>
+				  					</ul>
+				  					<li>Each team can have minimum 2 and maximum of 4 participants</li>
+				  					<li>A team may consist of students from different colleges or different departments</li>
+				  					<li>The machine can be controlled through wireless remote or wired. Power supply can be on-board or off-board. Refer below for further details on battery and power.</li>
+				  					<li>The electric voltage between 2 points anywhere in the machine should not be more than 12V DC at any point of time.</li>
+				  					<li>The motors used shall not exceed 100rpm.</li>
+				  					<li>Each participating team must get approval for their robot from coordinators before participating in event, and the decision by coordinators will be last and final decision.</li>
+				  					<li>All efforts must be made to protect battery terminals from a direct short and causing a battery fire, failure to do so will cause direct disqualification</li>
+				  					<li>Change of battery will not be allowed during the match or once race started.</li>
+				  					<li>Use of damaged, non-leak proof batteries may lead to disqualification.</li>
+				  					<li>The coordinators reserve the right to change the rules as they deem fit.</li>
+				  					</ul>
+				  				</ol>
+				  				
+								<div class="col-md-6">
+				  					<ul>
+				  						<h3>Coordinators</h3>
+				  						<li>Lakshay</li>
+				  						<li>Kanika</li>
+				  						<li>Aman</li>
+				  						<li>Bawer</li>
+				  						<li>Neha</li>
+				  						<li>Pankaj</li>
+				  					</ul>
+			  					</div>
+			  					<div class="col-md-6">
+				  					<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs 400/-(for external)</b></li>
+				  						<li><b>Duration : 1 and half hour</b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 2500/-</b></li>
+											<li> 1<sup>st</sup> Runner Up :</br><b>Rs 1500/-</b></li>
+											<li> 2<sup>nd</sup> Runner Up :</br><b>Rs 500/-</b></li>
+				  						</ol></li>
+				  					</ul>
+			  					</div>
+							</div>
+						</div>
+						<div class="tab-pane bounceInRight" id="skill3">
+							<h2>Circuit Trix</h2>
+				  			<p class="text-justify"> 
+				  				No. of levels - 2</br>
+				  				<b>Level 1</b></br>
+				  				<b>Description: </b>Here a slide of different electronic components, symbol, sensor and basic types of IC's.Marks will be given on basis of performance.</br>
+				  				<b>Level 2</b></br>
+					<b>Description:</b> Short listed students from level 1 will be shown a circuit having error . They have to recognize the error and assemble the circuit on breadboard and question will be asked from the participants related to circuit and basic components and will be selected on the basis of level 2 .</br>
+  								  				 </p>
+							<div class="col-md-6">
+									<h3>Level 1,2</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Amit Kumar Yadav</li>
+				  						<li>Himangi</li>
+				  						<li>Rishabh</li>
+				  						<li>Nitika</li>
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs 40/- per team</b></li>
+				  						<li><b>Duration : 1hr </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 700/-</b></li>
+											<li>First Runner Up :</br><b>Rs 400/-</b></li>
+											<li>Second Runner Up :</br><b>Rs 200/-</b></li>
+				  						</ol></li>
+				  					</ul>
+			  					</div>
+						</div>
+						<div class="tab-pane bounceInRight" id="skill4">
+							<h2>Line Follower</h2>
+					  			<p class="text-justify"> 
+				  				No. of levels - 1</br>
+				  				<b>Level 1</b> </br>
+				  				<b>Description:</b>Workshop will be conducted for 2nd and 3rd year students before tech-fest to teach them, to make a line following robot. Detailed description of circuit and components used in it will be given to them.</br>
+On tech-fest a competition will be held in which there robot has to follow the path of given arena in minimum possible time to win the completion.
+</br>
+				  				
+				  				 </p>
+							<div class="col-md-6">
+									<h3>Level 1</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Akash Kumar</li>
+				  						<li>Chetan</li>
+				  						<li>Rahul Garg</li>
+				  						<li>Saurav</li>
+				  						<li>Udhey</li>
+				  						<li>Navkaran</li>
+
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs. 400/-(for external)</b></li>
+				  						<li><b>Duration : 1hr </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 2500/-</b></li>
+											<li> 1st Runner Up :</br><b>Rs 1500/-</b></li>
+											<li> 2nd Runner Up :</br><b> Rs 500/-</b></li>
+				  						</ol></li>
+				  					</ul>
+			  					</div>
+			  					
+						</div>
+						<div class="tab-pane bounceInRight" id="skill5">
+							<h2>In4Tech</h2>
+							<p class="text-justify"> 
+				  				No. of levels - 3</br>
+				  				<b>Level 1 - Pass E Letter</b> </br>
+				  				<b>Description:</b>In this round there will be group of maximum 4 students.Either they themselves can make or co-ordinators will help them to form one.We will initialize with the name ,itmay be of digital, communication, edc and networking. The group will pass the E letters one by one to next group.We will proceed in next round with top 7 groups. </br>
+				  				<b>Level 2 - Are You Smarter Than Your Phone?</b> </br>
+				  				<b>Description:</b>In this round the group will be splitted into individual,every student will be asked about mobile and telecommunication,the top 14 will selected and promoted to next and final round.</br>
+				  				<b>Level 3 - Technical Aptitude</b> </br>
+				  				<b>Description:</b>In this round written technical question will be asked. Winner will be selected from this.</br>
+				  				
+				  				 </p>
+							<div class="col-md-6">
+									<h3>Level 1 ,2 & 3</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Seerat</li>
+				  						<li>Sukhwinder</li>
+				  						<li>Gurkaran</li>
+				  						<li>Sandeep Vatsal</li>
+				  						
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs 20/-</b></li>
+				  						<li><b>Duration : 1hr each </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 600/-</b></li>
+											<li>Runner Up :</br><b>Rs 300/-</b></li>
+						  						</ol></li>
+				  					</ul>
+			  					</div>
+						</div>
+						<div class="tab-pane bounceInRight" id="skill6">
+							<h2>What an Idea!</h2>
+							<p class="text-justify"> 
+				  				No. of levels - 3</br>
+				  				<b>Level 1</b></br>
+				  				<b>Description: </b>Submit your review paper .</br>
+				  				<b>Level 2</b></br>
+					<b>Description:</b> Judges will evaluate and screen the papers.</br>
+  								<b>Level 3</b></br>
+					<b>Description:</b> Contestants will present there paper in  presentation form . </br>
+					  				 </p>
+							<div class="col-md-6">
+									<h3>Level 1,2&3</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Dixit</li>
+				  						<li>Ritin</li>
+				  						<li>Madhurima</li>
+				  						<li>Ketiya</li>
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Open</b></li>
+				  						<li><b>Duration : 2.5 hr </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 750/-</b></li>
+											<li>1st Runner Up :</br><b>Rs 500/-</b></li>
+											<li>2nd Runner Up :</br><b>Rs 250/-</b></li>											
+											
+				  						</ol></li>
+				  					</ul>
+			  					</div>
+						</div>
+						<div class="tab-pane bounceInRight" id="skill7">
+							<h2>PCB Etching</h2>
+							<p class="text-justify"> 
+				  				No. of levels - 1</br>
+				  				<b>Level 1 </b> </br>
+				  				<b>Description:</b>A Competition would be held and winners will be decided on basis of simplification and neatness of circuit.</br>
+				  				
+				  				
+				  				 </p>
+							<div class="col-md-6">
+									<h3>Level 1</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Preeti</li>
+				  						<li>Dupinder</li>
+				  						<li>Oshin</li>
+				  						<li>Saurav</li>
+				  						<li>Sudhanshu</li>
+				  						<li>Goldy</li>
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs 20/-</b></li>
+				  						<li><b>Duration : 1hr 30min </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 700/-</b></li>
+											<li>Runner Up :</br><b>Rs 500/-</b></li>
+						  						</ol></li>
+				  					</ul>
+			  					</div>
+						</div>
+						<div class="tab-pane bounceInRight" id="skill8">
+							<h2>Impedance</h2>
+							<p class="text-justify"> 
+				  				No. of levels - 1</br>
+				  				<b>Level 1</b></br>
+				  				<b>Description: </b>Impedance will be given to you and you have to make that impedance value by using resistor, capacitor or inductor and check it by multi-meter.</br>
+				  			</p>
+							<div class="col-md-6">
+									<h3>Level 1</h3>
+									<h5><b>Co-ordinators</b></h5>
+				  					<ul>
+				  						<li>Sumit</li>
+				  						<li>Komal</li>
+				  						<li>Parveen</li>
+				  						<li>Sonal</li>
+				  						<li>Simar</li>
+				  					</ul>
+			  					</div>
+			  					
+			  					<div class="col-md-6">
+			  							<h3>Details</h3>
+			  							<ul>
+				  						<li><b>Entry Fees : Rs 20/-</b></li>
+				  						<li><b>Duration : 45 min </b></li>
+				  						<li><b>Prizes: </b><ol>
+				  							<li> Winner :</br><b>Rs 500/-</b></li>
+											<li>1st Runner Up :</br><b>Rs 300/-</b></li>
+																		
+				  						</ol></li>
+				  					</ul>
+			  					</div>
+						</div>
+					</div>
+					<script>
+					  $(function () {
+					    	$('#SkillsTab a').click(function (e) {
+						  		e.preventDefault()
+						  		$(this).tab('show')
+							});
+					  });
+					</script>
+	  			</div>
+	  		</div>
+	  		<div class="container">
+	  			<!-- CUSTOMER REVIEWS -->
+	  			<a name="contact"></a>
+	  			<h2 class="with-breaker animate-me fadeInUp">
+		  			Get In Touch<span>What are you waiting for ?</span>
+	  			</h2>
+	  		</div>
+	  		<!-- CUSTOM CONTAINER -->
+	  		<section class="contact-container with-separation-bottom with-separation-top">
+		  		<div class="contact-boxes">
+		  			<div class="contact-box contact-box-email animate-me zoomIn">
+		  				<h2>Email</h2>
+		  				<p>Do mail us in case of any query.</p>
+		  				<a href="mailto:insigniafest15@gmail.com?subject=Query" class="btn btn-default"><i class="fa fa-envelope"></i> Email Us</a>
+		  			</div>
+		  			<div class="contact-box contact-box-twitter animate-me zoomIn">
+		  				<h2>Twitter</h2>
+		  				<p>Follow us to interact, chat and share our ideas on Twitter.</p>
+		  				<a href="http://twitter.com/Insignia2K15" class="btn btn-default"><i class="fa fa-twitter"></i> Follow us</a>
+		  			</div>
+		  			<div class="contact-box contact-box-facebook animate-me zoomIn">
+		  				<h2>Facebook</h2>
+		  				<p>Like our page and send us message directly.</p>
+		  				<a href="https://www.facebook.com/pages/Insignia2k15/642319015901883?fref=nf" class="btn btn-default"><i class="fa fa-facebook"></i> Like Our Page</a>
+		  			</div>
+		  			<div class="contact-box contact-box-skype animate-me zoomIn">
+		  				<h2>Skype</h2>
+		  				<p>Call us or chat with us on Skype whenever you like, do not hesitate.</p>
+		  				<a href="skype:piyush.kochhar1?call" class="btn btn-default"><i class="fa fa-skype"></i> Call Us</a>
+		  			</div>
+		  		</div>
+	  		</section>
+	  	</div>
+	  	<!-- END MAIN CONTAINER -->
+	  	
+	  	<!-- START FOOTER -->
+	  	<footer id="footer" class="with-separation-top">
+		  	<aside id="widgets" class="container">
+		  		<div class="row">
+		  			<!-- WIDGET -->
+			  		<div class="col-md-4 widget animate-me fadeInLeft">
+			  			<img src="images/logo-footer.png" id="footer-logo" alt="Logo footer">
+			  			<p>G.N.D.U. Regional Campus Jalandhar's Annual TechFest.</p>
+			  		</div>
+		  			<!-- WIDGET -->
+			  		<div class="col-md-4 widget animate-me fadeInUp">
+				  		<h4>Navigation</h4>
+				  		<ul>
+					  		<li><a href="index.html">Home</a></li>
+					  		<li><a href="index.html#events">Events</a></li>
+					  		<li><a href="index.html#gallery">Gallery</a></li>
+					  		<li><a href="about.html">Schedule</a></li>
+				  		</ul>
+			  		</div>
+		  			<!-- WIDGET -->
+			  		<div class="col-md-4 widget animate-me fadeInRight">
+			  			<h4>Contact</h4>
+			  			<ul class="contact-informations">
+				  			<li class="contact-address">Piyush Kochhar </li>
+				  			<li class="contact-phone">+918146979198</li>
+				  			<li class="contact-address">Aanchal Sharma </li>
+				  			<li class="contact-phone">+91964688997</li>
+			  			</ul>
+			  		
+			  		</div>
+		  		</div>
+		  	</aside>
+		  	<div id="copyright" class="animate-me fadeInUp">
+		  		<div class="container">
+			  		<p>&#169; 2015 All Rights Reserved.</p>
+			  		<ul id="footer-navigation">
+				  		<li><a href="#">Contents Of This Site Should Not Be Distributed.</a></li>
+				  		<li><a href="#contact">Contact Us</a></li>
+			  		</ul>
+		  		</div>
+		  	</div>
+	  	</footer>
+	  	<!-- END FOOTER -->
+	  	
+	  	<!-- SCROLL TOP -->
+	  	<a href="#" id="scroll-top" class="fadeInRight animate-me"><i class="fa fa-angle-double-up"></i></a>
+  	</div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+  <!-- END BODY -->
+</html>
